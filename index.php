@@ -69,11 +69,11 @@ handle_form();
 
 ?><!Doctype html>
 <html>
-	<head>
-		<title>Convert YouTube</title>
-		<meta name="robots" content="noindex,nofollow" />
-	</head>
-	<body>
+  <head>
+    <title>YouTube Audio Download</title>
+    <meta name="robots" content="noindex,nofollow" />
+  </head>
+  <body>
     <h1>YouTube Audio Download</h1>
     <hr/><br/>
     <?php if(isset($ERROR)) echo '<em style="color:red">' . "ERROR: $ERROR</em><br/>"; ?>
